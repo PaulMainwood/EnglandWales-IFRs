@@ -1,8 +1,8 @@
-EnglandWales-IFRs
-
-![image](https://github.com/PaulMainwood/EnglandWales-IFRs/assets/50012795/b24f6566-535d-4aaf-9baf-145d7d6d49e1)
+## EnglandWales-IFRs
 
 IFR estimates from ONS data using Bayesian Structural Time Series
+
+![image](https://github.com/PaulMainwood/EnglandWales-IFRs/assets/50012795/b24f6566-535d-4aaf-9baf-145d7d6d49e1)
 
 Date sources: 
 
