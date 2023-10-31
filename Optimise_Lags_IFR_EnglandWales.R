@@ -10,8 +10,6 @@ pre_offset_selected_infections <- tibble(Date = ons_incidence$Date, Incidence = 
 offset_selected_infections <- pre_offset_selected_infections %>% 
   mutate(Incidence_lag = lag(Incidence, n = offset_val))
 
-
-
 ons_weekly_incidence <- offset_selected_infections %>%
   filter(Date >= start_week) %>%
   mutate(week_offset = as.numeric(difftime(Date, start_week, units = "days")) %/% 7) %>%
